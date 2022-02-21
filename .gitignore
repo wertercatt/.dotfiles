@@ -1,0 +1,8 @@
+/config/binwalk/magic/
+/config/binwalk/modules/
+/config/binwalk/plugins/
+/config/mpv/discord
+/config/mpv/scripts/
+/config/mpv/watch_later/
+/config/thefuck/__pycache__/
+/config/thefuck/rules/

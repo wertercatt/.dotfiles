@@ -4,8 +4,8 @@
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
-    ~/.config/i3:
-        path: config/i3/
-        create: true
-    ~/.gitconfig: .gitconfig
-
+    ~/.gitconfig: gitconfig
+    ~/.config/:
+        glob: true
+        path: config/*
+        relink: true

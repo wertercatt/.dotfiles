@@ -1,0 +1,254 @@
+[General Options]
+File1[$e]=/
+File2[$e]=/mnt
+Name1[$e]=
+Name2[$e]=mnt
+
+[MainWindow]
+HDMI-0 Height 1920x1080=1032
+HDMI-0 Width 1920x1080=1916
+HDMI-0 XPosition 1920x1080=2
+HDMI-0 YPosition 1920x1080=22
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAAB3wAAAO8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Tree Colors]
+fillColor_00=0,0,255
+fillColor_01=128,0,128
+fillColor_02=231,147,43
+fillColor_03=4,113,0
+fillColor_04=176,0,0
+fillColor_05=204,187,0
+fillColor_06=162,98,30
+fillColor_07=0,148,146
+fillColor_08=217,94,0
+fillColor_09=0,194,65
+fillColor_10=194,108,187
+fillColor_11=0,179,255
+fillColor_12=0,0,255
+fillColor_13=0,0,255
+fillColor_14=0,0,255
+fillColor_15=0,0,255
+usedFillColors=4
+
+[cleanup_compress_subtree]
+askForConfirmation=false
+command=cd ..; tar cjvf %n.tar.bz2 %n && rm -rf %n
+enabled=true
+recurse=false
+refreshPolicy=2
+title=&Compress
+valid=true
+worksForDir=true
+worksForDotEntry=false
+worksForFile=false
+worksLocalOnly=true
+
+[cleanup_delete_trash]
+askForConfirmation=false
+command=rm -f *.o *~ *.bak *.auto core
+enabled=true
+recurse=true
+refreshPolicy=1
+title=Delete T&rash Files
+valid=true
+worksForDir=true
+worksForDotEntry=true
+worksForFile=false
+worksLocalOnly=true
+
+[cleanup_hard_delete]
+askForConfirmation=true
+command=rm -rf %p
+enabled=true
+recurse=false
+refreshPolicy=3
+title=&Delete (no way to undelete!)
+valid=true
+worksForDir=true
+worksForDotEntry=false
+worksForFile=true
+worksLocalOnly=true
+
+[cleanup_make_clean]
+askForConfirmation=false
+command=make clean
+enabled=true
+recurse=false
+refreshPolicy=1
+title=&make clean
+valid=true
+worksForDir=true
+worksForDotEntry=true
+worksForFile=false
+worksLocalOnly=true
+
+[cleanup_move_to_trash_bin]
+askForConfirmation=false
+command=
+enabled=true
+recurse=false
+refreshPolicy=3
+title=Delete (to Trash &Bin)
+valid=true
+worksForDir=true
+worksForDotEntry=false
+worksForFile=true
+worksLocalOnly=true
+
+[cleanup_open_in_konqueror]
+askForConfirmation=false
+command=xdg-open %p
+enabled=true
+recurse=false
+refreshPolicy=0
+title=Open a file &browser
+valid=true
+worksForDir=true
+worksForDotEntry=true
+worksForFile=true
+worksLocalOnly=false
+
+[cleanup_open_in_terminal]
+askForConfirmation=false
+command=konsole --workdir %p
+enabled=true
+recurse=false
+refreshPolicy=0
+title=Open in &Terminal
+valid=true
+worksForDir=true
+worksForDotEntry=true
+worksForFile=true
+worksLocalOnly=true
+
+[cleanup_user_defined_0]
+askForConfirmation=false
+command=
+enabled=false
+recurse=false
+refreshPolicy=0
+title=User Defined Cleanup #&0
+valid=true
+worksForDir=true
+worksForDotEntry=false
+worksForFile=false
+worksLocalOnly=true
+
+[cleanup_user_defined_1]
+askForConfirmation=false
+command=
+enabled=false
+recurse=false
+refreshPolicy=0
+title=User Defined Cleanup #&1
+valid=true
+worksForDir=true
+worksForDotEntry=false
+worksForFile=false
+worksLocalOnly=true
+
+[cleanup_user_defined_2]
+askForConfirmation=false
+command=
+enabled=false
+recurse=false
+refreshPolicy=0
+title=User Defined Cleanup #&2
+valid=true
+worksForDir=true
+worksForDotEntry=false
+worksForFile=false
+worksLocalOnly=true
+
+[cleanup_user_defined_3]
+askForConfirmation=false
+command=
+enabled=false
+recurse=false
+refreshPolicy=0
+title=User Defined Cleanup #&3
+valid=true
+worksForDir=true
+worksForDotEntry=false
+worksForFile=false
+worksLocalOnly=true
+
+[cleanup_user_defined_4]
+askForConfirmation=false
+command=
+enabled=false
+recurse=false
+refreshPolicy=0
+title=User Defined Cleanup #&4
+valid=true
+worksForDir=true
+worksForDotEntry=false
+worksForFile=false
+worksLocalOnly=true
+
+[cleanup_user_defined_5]
+askForConfirmation=false
+command=
+enabled=false
+recurse=false
+refreshPolicy=0
+title=User Defined Cleanup #&5
+valid=true
+worksForDir=true
+worksForDotEntry=false
+worksForFile=false
+worksLocalOnly=true
+
+[cleanup_user_defined_6]
+askForConfirmation=false
+command=
+enabled=false
+recurse=false
+refreshPolicy=0
+title=User Defined Cleanup #&6
+valid=true
+worksForDir=true
+worksForDotEntry=false
+worksForFile=false
+worksLocalOnly=true
+
+[cleanup_user_defined_7]
+askForConfirmation=false
+command=
+enabled=false
+recurse=false
+refreshPolicy=0
+title=User Defined Cleanup #&7
+valid=true
+worksForDir=true
+worksForDotEntry=false
+worksForFile=false
+worksLocalOnly=true
+
+[cleanup_user_defined_8]
+askForConfirmation=false
+command=
+enabled=false
+recurse=false
+refreshPolicy=0
+title=User Defined Cleanup #&8
+valid=true
+worksForDir=true
+worksForDotEntry=false
+worksForFile=false
+worksLocalOnly=true
+
+[cleanup_user_defined_9]
+askForConfirmation=false
+command=
+enabled=false
+recurse=false
+refreshPolicy=0
+title=User Defined Cleanup #&9
+valid=true
+worksForDir=true
+worksForDotEntry=false
+worksForFile=false
+worksLocalOnly=true
