@@ -1,130 +1,3 @@
-vim .env
-docker compose up
-mpv https://youtu.be/5pJCfKoCA30?t=1581
-cat remember.txt
-[200~yay -Syu mpv-full-git yt-dlp-drop-in~
-yay -Syu mpv-full-git yt-dlp-drop-in
-yay -Syu mpv-full-git yt-dlp-drop-in
-yay -Syu spirv-cross-git
-yay -Syu mpv-full-git yt-dlp-drop-in
-spirv-cross
-which spirv-cross
-yay -Syu mpv-full-git yt-dlp-drop-in
-yay -Syu spirv-cross
-yay -Rsc asf-git
-yay -Syu spirv-cross
-yay -Syu mpv-full-git yt-dlp-drop-in
-yay -Syu caddy collectl
-yay -Syu caddy-git collectl
-yay -Syu docker-git docker-compose-git
-yay -Syu docker-compose-git
-yay -Syu docker-compose
-cat /etc/resolv.conf
-cat /etc/hosts
-sudo vim /etc/hosts
-sudo setcap CAP_NET_BIND_SERVICE=+eip $(which caddy)
-ls /mnt2/Games/LegoUniverse
-neofetvh
-neofetch
-htop
-mpv https://www.youtube.com/playlist?list=PLprPXqd7y-iVDx8MonCawVpejMOzqkAJH
-yay -Syu multimc-git
- $CMAKE_Java_COMPILER
-neofetch
-yay -Syu steam
-yay -Syu ttf-liberation
-taskill steam
-taskkill steam
-kill steam
-pslist steam
-ps steam
-top
-kill 185017
-top | grep steam
-kill -f 185017
-kill 185017
-yay -Syu conky-git
-cd /mnt/GameRoomServers
-dir
-cd Caddy
-caddy
-cat start.bat
-caddy run
-ls
-vim Caddyfule
-vim Caddyfile
-caddy run
-caddy run
-caddy run
-cd /mt
-cd /mnt
-ls
-cd Dockers
-ls
-docker compose up
-ls
-vim docker-compose.yml
-docker compose up
-vim docker-compose.yml
-docker compose up
-java
-yay- Syu multimc-git
-yay -Syu multimc-git
-javac
-yay -Syu openjdk-8
-yay -Syu java-environment-openjdk
-javac
-yay -Syu  	jdk8-openjdk
-javac
-archlinux-java status
-archlinux-java set java-8-openjdk
-sudo archlinux-java set java-8-openjdk
-archlinux-java status
-javac
-yay -Syu multimc-git
-docker stats
-cd /mnt/GameRoomServers/Caddy
-caddy run
-top | grep steam
-kill 5384 5462 5778 5399
-top
-killall -9 steam
-top
-mpv https://www.youtube.com/watch?v=Hpo6aIuBxew
-mpv https://www.youtube.com/watch?v=9Bbof1kvK2I
-cd /mnt2/Games/MultiMc
-cd /mnt2/Games/MultiMC
-ls
-cd jars
-ls
-cd ..
-ls
-cd assets
-ls
-cd ..
-ls
-cd libraries
-ls
-cd ..
-mpv youtu.be/6wLNbt0XvGI
-mpv https://youtu.be/6wLNbt0XvGI
-mpv https://www.youtube.com/watch?v=Nnt3ZvoHi2A
-mpv https://www.youtube.com/watch?v=Nnt3ZvoHi2A
-vobcopy
-vobcopy
-man vobcopy
-fdisk -l
-kdirstat
-yay -Syu kdirstat
-yay -Syu k4dirstat
-yay -Syu ff2mpv-native-messaging-host-git
-yay -Syu ff2mpv-native-messaging-host-git
-yay -Syu vobcopy
-paccache -d
-yay -Syu pacman-contrib
-paccache -d
-paccache -vvv -d
-paccache -vvv
 paccache -vvv -r
 yay -Sc
 cd /mnt
@@ -498,3 +371,130 @@ cat gitconfig
 echo "test" | gpg2 --clearsign
 vim gitconfig
 git config -l
+cd .dotfiles
+ls
+vim install
+vim install.conf.yaml
+dotbot -c install.conf.yaml
+ls
+cd config
+ls
+cd ..
+ls
+vim install.conf.yaml
+dotbot -c install.conf.yaml
+dotbot -c install.conf.yaml
+dotbot -c install.conf.yaml
+git add .
+git commit -m "add my .config"
+git push origin
+git reset HEAD^
+vim .gitignore
+git add .
+git commit -m "add my .config"
+git push origin
+mkdir screenlayout
+ls
+vim install.conf.yaml
+dotbot -c install.conf.yaml
+dotbot -c install.conf.yaml
+vim install.conf.yaml
+dotbot -c install.conf.yaml
+ls
+vim install.conf.yaml
+dotbot -c install.conf.yaml
+vim install.conf.yaml
+dotbot -c install.conf.yaml
+dotbot -c install.conf.yaml
+vim ../.Xauthority
+ls
+dotbot -c install.conf.yaml
+vim install.conf.yaml
+dotbot -c install.conf.yaml
+dotbot -c install.conf.yaml
+vim install.conf.yaml
+history
+git add .
+dotbot -c install.conf.yaml
+vim .gitignore
+vim install.conf.yaml
+dotbot -c install.conf.yaml
+vim install.conf.yaml
+dotbot -c install.conf.yaml
+git add .
+git commit -m "add some more files from my home"
+git push origin
+git secrets
+git secrets --scan-history
+git secrets --scan-history .
+cd ..
+git secrets --scan -r --untracked
+git secrets --scan -r
+git secrets --scan --untracked
+cd .dotfiles
+git secrets --scan -r
+cd ..
+ls
+cd .dotfiles
+ls
+vim install.conf.yaml
+cd ..
+cd .dotfiles
+rm -rf ./etc
+ls
+yay -Syu git-filter-repo etckeeper
+git filter-repo --path etc/ --invert-paths
+git filter-repo --path etc/ --invert-paths --force
+gitk
+git push origin --force
+git push --set-upstream origin master
+git push
+git remote add origin git@github.com:wertercatt/.dotfiles.git
+git push --set-upstream origin master
+git push --set-upstream origin master --force
+git filter-branch --commit-filter 'git commit-tree -S "$@";' -- --all
+FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch --commit-filter 'git commit-tree -S "$@";' -- --all
+git push origin --force
+cd ..
+sudo vim /etc/etckeeper/etckeeper.conf
+cd /etc
+sudo etckeeper init
+ls -A
+cat .gitignore
+ls
+git remote add origin git@github.com:wertercatt/etc.git
+ls
+ls -A .git
+sudo git remote add origin git@github.com:wertercatt/etc.git
+sudo git config -l
+ls /home/root
+ls /root
+sudo ls /root
+cd /
+ls
+cd root
+sudo cd root
+sudo -s cd root
+su root
+cd /etc
+sudo git -l
+sudo git config -l
+sudo echo "$XDG_CONFIG_HOME"
+ls -a /
+su root
+sudo git remote add origin $XDG_CONFIG_HOME
+sudo git remote add origin git@github.com:wertercatt/etc.git
+git remote list
+sudo git remote list
+sudo git remote
+sudo git remote get-url origin
+etckeeper commit "first commit"
+sudo etckeeper commit "first commit"
+su root
+sudo etckeeper commit "first backup"
+sudo git push --set-upstream origin master
+git push --set-upstream origin master
+su root
+sudo git push --set-upstream origin master
+sudo systemd enable --now etckeeper.timer
+sudo systemctl enable --now etckeeper.timer
