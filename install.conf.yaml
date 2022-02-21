@@ -9,3 +9,11 @@
         glob: true
         path: config/*
         relink: true
+    ~/.screenlayout/test.sh:
+        path: screenlayout/test.sh
+        create: true
+    ~/.bash_history: bash_history
+    ~/.npmrc: npmrc
+    ~/.viminfo: viminfo
+    ~/.yarnrc: yarnrc
+    ~/.MakeMKV: MakeMKV/
