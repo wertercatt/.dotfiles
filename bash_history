@@ -1,28 +1,3 @@
-paccache -vvv -r
-yay -Sc
-cd /mnt
-ls
-cd /mnt3
-ls
-cd 'RIPs*'
-cd RIPs*
-ls
-mkdir vobcopy
-cd vobcopy
-vobcopy --mirror
-vobcopy --mirror
-ls
-rm -rf LEGO_NINJAGO_MASTERS_SPINJITZU
-ls
-vobcopy --mirror
-vobcopy --mirror
-ls
-docker stats
-cd /mnt/GameRoomServers/caddy
-cd /mnt/GameRoomServers/Caddy
-caddy run
-mpv https://www.youtube.com/watch?v=_gRXErWolmM
-cd /mnt/Dockers
 ls
 ./start.bat
 cat start.bat
@@ -498,3 +473,28 @@ su root
 sudo git push --set-upstream origin master
 sudo systemd enable --now etckeeper.timer
 sudo systemctl enable --now etckeeper.timer
+ls .ssh
+cat id_ed25519.pub
+cat .ssh/id_ed25519.pub
+tldr pkgfile
+pkgfile arch-chroot
+yay -Syu pkgfile
+pkgfile --update
+sudo pkgfile --update
+pkgfile arch-chroot
+neofetch | cowsay
+neofetch
+yay -Syu catsay
+neofetch | catsay
+neofetch
+echo "henwo" | catsay
+neofetch --noascii
+tldr neofetch
+tldr --disable asciiart
+neofetch --disable asciiart
+ls
+cd .dotfiles
+ls
+echo "neofetch" >> bashrc
+./bashrc
+cat bashrc
