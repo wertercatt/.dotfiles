@@ -1,0 +1,8 @@
+[user]
+	name = Blaze Marshall
+	email = wertercatt@wertercatt.com
+	signingkey = CFFD299FB526D553
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg2
