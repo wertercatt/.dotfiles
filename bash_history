@@ -1,54 +1,3 @@
-ls
-./start.bat
-cat start.bat
-docker compose pull
-docker compose up
-htop
-ls
-neofretch
-neofetch
-yay -Syu pacwall-git
-pacwall
-less /usr/share/doc/pacwall/README.rst
-pacwall
-fuckl
-fuck
-pacdiff
-sudo pacdiff
-yay -R pacwall-git
-yay -Syu dolphin-emu-git melonds-git
-cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
-sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
-sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorlist.backup
-sudo sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorlist.backup
-rankmirror
-rankmirrors
-sudo rankmirrors /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist
-fuck
-sudo rankmirrors /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist
-ls /etc/pacman.d
-sudo rankmirrors /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist
-rankmirrors /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist
-sudo sh -c "rankmirrors /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist"
-sudo sh -c "rankmirrors /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist"
-yay -Syu dolphin-emu-git melonds-git fwupd
-grub-mkconfig -o /boot/grub/grub.cfg
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-fwupdmgr get-devices
-fwupdmgr refresh
-fwupdmgr get-updates
-yay -Syu linux-lqx linux-xanmod
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-yay -Syu obs-studio-tytan652
-yay -Syu obs-studio obs-browser
-pacman -Syu food
-sudo pacman -Syu food
-megacmd
- dmesg | grep -i firmware
-sudo dmesg | grep -i firmware
-yay -Syu obs-studio-git dotbot
-shutdown -r now
-systemctl status lightdm
 lightdm --test-mode --debug
 sudo lightdm --test-mode --debug
 lightdm --test-mode --debug
@@ -498,3 +447,54 @@ ls
 echo "neofetch" >> bashrc
 ./bashrc
 cat bashrc
+cd /mnt/GameRoomServers/Caddy
+caddy run
+tldr dd
+cd /
+ls
+cd media
+ls
+sudo mkdir jayne-home
+tldr etckeeper
+docker stats
+yay -Syu caddy
+cd /mnt/GameRoomServers/Caddy
+caddy run
+which caddy
+sudo setcap CAP_NET_BIND_SERVICE=+eip /usr/bin/caddy
+caddy run
+cd /mnt/Dockers
+docker compose up
+cd /mnt/Dockers
+docker compose down
+cd /mnt/GameRoomServers/DarkflameServer
+git rebase
+git add .
+git commit
+git pull
+git remote -l
+git remote list
+git remote
+git pull my-fork
+git commits
+git log
+git pull my-fork
+tldr git pull
+git pull my-fork main
+git rebase origin/main
+ip link set eth0 up
+ip link
+ls .ssh
+docker stats
+ls
+vim nmap.stdout.txt
+tldr cp
+ls
+ls archlive-releng-with-cidata/
+ls -r archlive-releng-with-cidata/airootfs/
+ls -R archlive-releng-with-cidata/airootfs/
+tldr ls
+lsblk
+binwalk /dev/sde
+sudo binwalk /dev/sde
+sudo binwalk -y 'filesystem' /dev/sde

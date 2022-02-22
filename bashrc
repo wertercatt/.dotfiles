@@ -10,3 +10,6 @@ PS1='[\u@\h \W]\$ '
 
 eval "$(thefuck --alias)"
 neofetch
+HISTSIZE=-1
+HISTFILESIZE=-1
+HISTCONTROL=ignoreboth
