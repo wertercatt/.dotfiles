@@ -1,0 +1,13 @@
+#save everything
+--write-subs
+--write-description
+--write-info-json
+--write-comments
+--write-thumbnail
+#output format
+-o "./TikTok/%(uploader)s/%(timestamp)s.%(ext)s"
+#embed info
+--embed-subs
+--embed-thumbnail
+--embed-metadata
+--cookies-from-browser "firefox"

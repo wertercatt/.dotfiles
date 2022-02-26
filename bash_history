@@ -1,262 +1,3 @@
-lightdm --test-mode --debug
-sudo lightdm --test-mode --debug
-lightdm --test-mode --debug
-lightdm --test-mode --debug | less
-lightdm --test-mode --debug | less
-lightdm --test-mode --debug >> 2>> lightdm.txt
-lightdm --test-mode --debug >> err>> lightdm.txt
-lightdm --test-mode --debug err>> lightdm.txt
-cat lightdm.txt
-lightdm --test-mode --debug
-cat /etc/lightdm/lightdm.cong
-cat /etc/lightdm/lightdm.conf
-vim /etc/lightdm/lightdm.conf
-ls /var/lib/lightdm
-ls /var/lib/lightdm/data
-sudo ls --color=auto /var/lib/lightdm/data
-pacman -Syu lightdm
-sudo pacman -Syu lightdm
-ls /var/lib/lightdm/data
-sudo
-ls /var/lib/lightdm/data
-sudo ls --color=auto /var/lib/lightdm/data
-sudo ls --color=auto /var/lib/lightdm/
-sudo ls --color=auto /var/lib/
-sudo ls --color=auto /var/lib/lightdm-data
-lightdm --test-mode --debug
-
-sudo lightdm --test-mode --debug
-lightdm
-lightdm --test-mode --debug
-chmod +777 /var/lib/lightdm-data
-lightdm --test-mode --debug
-sudo lightdm --test-mode --debug
-systemctl --failed
-systemctl status
-systemctl status lightdm
-systemctl is-enabled timesyncd
-systemctl is-enabled systemd-timesyncd
-ntpd
-systemctl is-enabled systemd-timesyncd
-systemctl enable --now systemd-timesyncd
-hwclock
-lightdm --show-config
-lightdm-gtk-greeter
-lightdm --show-config
-ls /usr/share/xgreeters
-lightdm --show-config
-sudo vim /etc/lightdm/lightdm.conf
-ls /usr/share/xgreeters
-systemctl restart
-systemctl reboot
-startx
-neofetch
-repo-elephant
-repo-elephant
-sudo pacman -S $(pacman -Qnq)
-systemctl restart
-systemctl reboot
-yay -R linux-zen linux-lqx linux-xanmod
-grub-mkconfig -o /boot/grub/grub.cfg
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-systemctl reboot
-cd /mnt/GameRoomServers/DarkFlameServer
-cd /mnt/GameRoomServers/
-ls
-cd DarkflameServer
-git pull origin
-docker compose build
-DOCKER_BUILDKIT=1 docker compose build
-docker compose up
-cd /mnt/Dockers
-docker compose pull
-docker compose up
-cd /mnt3/
-cd GameRoomServers/Caddy
-ls
-cd /mnt
-ls
-cd GameRoomServers
-cd Caddy
-ls
-caddy run
-which caddy
-sudo setcap CAP_NET_BIND_SERVICE=+eip /usr/bin/caddy
-caddy run
-yay -R discord-canary
-yay -Syu discord_arch_electron
-cat /var/mail/root
-ls /var/mail
-ls /var/
-ls /var/mail
-la
-ls /var/spool
-ls /var/spool/mail
-ls /var/log/messages
-ls /var/log/
-discord
-cat /usr/bin/discord
-which electron
-electron --version
-electron16
-yay -Syu electron15
-yay -Syu electron15
-ls
-cd init-dotfiles
-./init-dotfiles test
-ls
-./init-dotfiles.sh test
-fuck
-./init_dotfiles.sh test
-dotbot
-cd ..
-git
-git config
-git config --get-all
-git config --global --get-all
-git config --global -l
-git config -l
-git config -l --global
-cd dotfiles
-ls
-cd err
-cd init-dotfiles
-init_dotfiles.sh
-./init_dotfiles.sh
-ls -a !
-ls -a ~
-shutdown -r
-shutdown -r now
-yay -Syu binwalk
-yay -Syu python-capstone arj cabextract mtd-utils p7zip squashfs-tools unrar lhasa sleuthkit
-binwalk
-cd /mnt
-ls *.img
-binwalk Fujitsu20GB.img
-cd /mnt
-ls
-rm "Fujitsu20GB.img.7z (lc3,lp0,pb2).7z"
-./7zftx64 Fujitsu20GB.img Fujitsu20GB.img
-killall k4dirstat
-pslist
-htop
-yay -Syu htop
-htop
-df -h
-lsblk
-lsblk
-lsblk
-cat /etc/fstab
-sudo mount -t ntfs -o defaults,uid=1000,gid=1000,exec,windows_names,errors=remount-ro,relatime,utf8 /dev/sde1 /media/temp
-ntfsfix
-ntfsfix /dev/sde1
-mkdir /mnt/a
-df -h
-ls
-lsblk
-lsblk
-lsblk
-lsblk
-lsblk
-sudo fdisk -l
-mount -t nfts -o ro /dev/sdd3 /media/temp
-sudo mount -t nfts -o ro /dev/sdd3 /media/temp
-sudo mount -t ntfs -o ro /dev/sdd3 /media/temp
-cd /media/temp
-ls
-ls -a
-ls
-cd ..
-umount /dev/sdd3
-sudo umount /dev/sdd3
-lsblk
-lsblk
-lsblk
-lsblk
-fdisk -l
-sudo fdisk -l
-df -h
-cd ..
-shutdown
-cd /mnt
-ls *.img
-binwalk -y 'filesystem' Fujitsu20GB.img
-binwalk Fujitsu20GB.img
-binwalk -W Fujitsu20GB.img
-ls -s --human-readable /mnt
-ls -s --human-readable /mnt/*.img
-df -h
-df -h
-sudo fdisk -l
-cd /mnt/Dockers
-docker compose up
-neofetch
-xprop
-xprop
-xprop | grep CLASS
-yay -Syu tldr-sh
-vim .dotfiles/config/i3/config
-gpg --import /mnt2/Users/wertc/.gnupg/private-keys-v1.d/42BB864B9E642401845395B75FBD041D44F7E995.key
-gpg --import /mnt2/Users/wertc/.gnupg/pubring.kbx
-gpg2
-gpg2 --keyring /mnt2/Users/wertc/.gnupg/pubring.kbx --export 
-gpg --list-keys
-ls
-cat lightdm.txt
-rm lightdm.txt
-ls
-cat err
-rm err
-gpg --clearsign remember.txt
-cat remember.txt
-ls
-cat remember.txt.asc
-cd .dotfiles
-git push --mirror git@github.com:wertercatt/.dotfiles.git
-cd ..
-ls -A
-cd .gnupg
-ls -A
-cd private-keys(
-cd private-keys*
-ls
-cat *.ket
-cat *.key
-gpg --list-secret-keys
-sl
-ls
-gpg --import *.key
-
-cat /mnt2/Users/wertc/.gitconfig
-git config --global user.signingkey CFFD299FB526D553
-git config --global commit.gpgsign true
-cd ..
-cd ..
-cd .dotfiles
-mkdir etc
-cd etc
-ls /etc
-pacman -Qii | grep ^MODIFIED | cut -f2
-cat /etc/shells
-cp /etc/fstab fstab
-cat /etc/group
-pacman -Qii | grep ^MODIFIED | cut -f2
-cp /etc/group group
-cp /etc/hosts hosts
-cp /etc/resolv.conf resolv.conf
-cp /etc/shells shells
-cp /etc/locale.gen locale.gen
-cp /etc/default/grub default/grub
-mkdir default
-cp /etc/default/grub default/grub
-ls
-cat fstab
-pacman -Qii | grep ^MODIFIED | cut -f2
-cp /etc/pacman.conf pacman.conf
-cp /etc/makepkg.conf makepkg.conf
-mkdir pacman.d
-cp /etc/pacman.d/mirrorlist pacman.d/mirrorlist
-mkdir texmf/web2c/
 mkdir t
 mkdir texmf/web2c/
 cp /etc/texmf/web2c/fmtutil.cnf texmf/web2c/fmtutil.cnf
@@ -498,3 +239,349 @@ lsblk
 binwalk /dev/sde
 sudo binwalk /dev/sde
 sudo binwalk -y 'filesystem' /dev/sde
+tldr timedatectl
+ls .ssh
+cat .ssh/*.pub
+nmap -sL
+nmap -sL 192.168.86.*
+nmap -sV wertserv.lan
+docker stats
+docker compose down
+cd /mnt/Dockers
+docker compose down
+yay -Syu fireshot
+yay -Syu flameshot
+flameshot
+cd /mnt/Dockers
+docker compose up
+docker stats
+ls /mnt/Dockers
+cd /mnt/Dockers
+ls
+cd MCCreative
+ls
+cd backups
+ls
+cd ..
+cd Backups
+ls
+cd ..
+ls
+cd word
+cd world
+ls
+cd ..
+ls
+ssh -p 22 wertercatt@wertserv.lan
+ssh -p 22 ifelse95@wertserv.lan
+ssh -p 22 root@wertserv.lan
+cd /mnt/GameRoomServers/Caddy
+caddy run
+flameshot
+yay -Syu filezilla
+ls /media/jayne-home
+df -h
+sudo etckeeper commit "get jayne-home mounting properly"
+neofetch
+cat /usr/local
+l /usr/local
+ls /usr/local
+ls -r /usr/local
+tldr ls
+ls -F /usr/local
+man ls | grep recursive
+ls -F -R /usr/local
+vim /usr/local/bin/checketc.sh
+vim /usr/local/bin/vimetc.sh
+sudo vim /usr/local/bin/vimetc.sh
+chmod +x /usr/local/bin/vimetc.sh
+sudo chmod +x /usr/local/bin/vimetc.sh
+sudo /usr/local/bin/vimetc.sh hosts
+sudo /usr/local/bin/vimetc.sh hosts
+nmap -p 22 -sV 192.168.86.*
+nmap -p 22 -sV --open 192.168.86.*
+sudo /usr/local/bin/vimetc.sh hosts
+vimetc.sh
+sudo vimetc.sh etckeeper/etckeeper.conf
+yay -Syu --no-confirm
+yay -Syu -no-confirm
+sudo vimetc.sh etckeeper/etckeeper.conf
+git pull origin
+yay -Syu -no-confirm
+yay -Syu --noconfirm
+wget2 https://archlinux.org/static/netboot/ipxe-arch.16e24bec1a7c.efi
+yay -Syu pixiecore
+yay -Syu pixiecore-git
+yay -Syu pixiecore-git
+ls
+file *.efi
+yay -Syu archiso
+arch-chroot
+lsblk
+mount /dev/sde1 /media/temp
+sudo mount /dev/sde1 /media/temp
+cd /media/temp
+ls
+mkdir ~/cloud-init
+mv * ~/cloud-init
+ls
+sudo ls
+sudo mv * ~/cloud-init
+ls
+cd ..
+ls
+cd ~
+ls
+cd cloud-init
+ls
+cat user-data
+cd ..
+ls
+cp -r /usr/share/archiso/configs/releng/ archlive-releng-with-cidata
+ls
+cd archlive-releng-with-cidata
+ls
+cd ..
+ls airootfs/var/lib/cloud/seed/nocloud/
+cd archlive*
+ls airootfs/var/lib/cloud/seed/nocloud/
+ls airootfs/var/lib/cloud/seed/
+ls airootfs/var/lib/cloud/
+ls airootfs
+mkdir -p airootfs/var/lib/cloud/seed/nocloud/
+ls
+cd ..
+ls
+dfree -h
+df -h
+neofetch
+mkarchiso -v -w /tmp/archiso-tmp ./archlive-releng-with-cidata
+sudo mkarchiso -v -w /tmp/archiso-tmp ./archlive-releng-with-cidata
+ls
+ls out
+cd out
+ls
+ls
+lsblk sde
+lsblk /dev/sde
+dd bs=4M if=./*.iso of=/dev/sde conv=fsync oflag=direct status=progress
+dd bs=4M if=./archlinux-2022.02.21-x86_64.iso of=/dev/sde conv=fsync oflag=direct status=progress
+sudo dd bs=4M if=./archlinux-2022.02.21-x86_64.iso of=/dev/sde conv=fsync oflag=direct status=progress
+yay -Syu qemu edk2-ovmf
+ls
+run_archiso -u -i ./*.iso
+ls
+lsblk
+umount /dev/sde1
+sudo umount /dev/sde1
+sudo fdisk -l
+sudo mount /dev/sde1 /media/temp
+lsblk
+ssh -p 22 root@jayne.local
+ssh -p 22 root@jayne.lan
+nmap -sV -p 22 192.168.86.*
+nmap -sV -p 22 --open 192.168.86.*
+ssh -p 22 root@archiso.lan
+ssh-add -l
+ssh-add -L
+ssh -p 22 root@archiso.lan
+ssh -p 22 root@archiso.lan
+cd ..
+ls
+cd archlive
+cd archlive*
+ls airootfs/var/lib/cloud/seed/nocloud/
+cd ..
+ls cloud-init
+cat meta-data
+cat cloud-init/meta-data
+cat cloud-init/user-data
+cp cloud-init/* archlive-releng-with-cidata/airootfs/var/lib/cloud/see/nocloud
+ls archlive-releng-with-cidata/airootfs/var/lib/cloud/see/nocloud
+ls
+ls archlive-releng-with-cidata
+ls archlive-releng-with-cidata/airootfs
+ls archlive-releng-with-cidata/airootfs/var
+ls archlive-releng-with-cidata/airootfs/var/lib
+
+cp cloud-init/* archlive-releng-with-cidata/airootfs/var/lib/cloud/seed/nocloud
+ls
+mkarchiso -v -w /tmp/archiso-tmp archlive-releng-with-cidata
+sudo mkarchiso -v -w /tmp/archiso-tmp archlive-releng-with-cidata
+rm -rf out
+ls
+sudo rm -rf out
+sudo mkarchiso -v -w /tmp/archiso-tmp archlive-releng-with-cidata
+ks
+ls
+sudo mkarchiso -v -w /tmp/archiso-tmp ./archlive-releng-with-cidata
+ls
+ls archlive*
+ls out
+sudo mkarchiso -v -w /tmp/archiso-tmp /home/wertercatt/archlive-releng-with-cidata/
+ls /tmp/archiso-tmp
+ls
+rm -rf /tmp/archiso-tmp
+sudo rm -rf /tmp/archiso-tmp
+sudo mkarchiso -v -w /tmp/archiso-tmp /home/wertercatt/archlive-releng-with-cidata/
+sudo dd bs=4M if=/home/wertercatt/out/archlinux-2022.02.21-x86_64.iso of=/dev/sde conv=fsync oflag=direct status=progress
+lsblk
+history | grep "nmap"
+nmap -sV -p 22 --open 192.168.86.*
+ssh -p 22 root@archiso.lan
+vim /home/wertercatt/.ssh/known_hosts
+ssh -p 22 root@archiso.lan
+ls
+sudo rm -rf out
+sudo rm -rf /tmp/archiso-tmp
+vim archlive-releng-with-cidate/airoofs/var/lib/cloud/seed/nocloud/user-data
+ls -a archlive-releng-with-cidate/airoofs/var/lib/cloud/seed/nocloud/
+ls -a archlive-releng-with-cidata/airoofs/var/lib/cloud/seed/nocloud/
+ls -a archlive-releng-with-cidata/airoo
+ls -a archlive-releng-with-cidata/airootfs/var/lib/cloud/seed/nocloud/
+vim archlive-releng-with-cidata/airootfs/var/lib/cloud/seed/nocloud/user-data
+vim archlive-releng-with-cidata/airootfs/var/lib/cloud/seed/nocloud/user-data
+vim archlive-releng-with-cidata/airootfs/var/lib/cloud/seed/nocloud/user-data
+mkarchiso -v -w /tmp/archiso-tmp archlive-releng-with-cidata
+sudo mkarchiso -v -w /tmp/archiso-tmp archlive-releng-with-cidata
+history | grep "dd"
+sudo dd bs=4M if=/home/wertercatt/out/archlinux-2022.02.21-x86_64.iso of=/dev/sde conv=fsync oflag=direct status=progress
+man histcontrol
+man bash
+cd .dotfiles
+vim bashrc
+git add .
+git commit -m "don't wipe my bash_history"
+git push
+history
+ls
+cd ..
+ls
+ssh -p 22 root@archiso.lan
+vim /home/wertercatt/.ssh/known_hosts
+ssh -p 22 root@archiso.lan
+ssh -p 22 root@archiso.lan
+history | grep nmap
+nmap -sV -p 22 --open 192.168.86.*
+nmap -sV -p 22 --open 192.168.86.*
+nmap -sV -p 22 --open 192.168.86.*
+nmap -sV --open wertserv.lan
+nmap -sV --open
+nmap -sV --open 192.168.86.*
+nmap -sV -p 22 --open 192.168.86.*
+ssh -p 22 root@archiso.lan
+vim /home/wertercatt/.ssh/known_hosts
+ssh
+nmap -sV -p 22 --open 192.168.86.*
+nmap -sV -p 22 --open 192.168.86.*
+nmap -sV -p 22 --open 192.168.86.*
+nmap -sV -p 22 --open 192.168.86.*
+nmap -sV -p 22 --open 192.168.86.*
+nmap -sV -p 22 --open 192.168.86.*
+nmap -sV --open
+nmap -sV --open 192.168.86.*
+nmap -sV -p 22 --open 192.168.86.*
+history | grep ssh
+ssh -p 22 wertercatt@wertserv.lan
+ls
+cd /mnt
+ls
+scp -r /mnt/Dockers/ wertercatt@wertserv.lan:/home/wertercatt/Dockers
+scp -r /mnt/Dockers/ wertercatt@wertserv.lan:/home/wertercatt/Dockers
+ls
+yay -Syu rsync
+ssh -p 22 root@wertserv.lan
+ssh -p 22 shinyjiggly@wertserv.lan
+ssh -p 22 ifelse95@wertserv.lan
+ls
+ssh -p 22 wertercatt@wertserv.lan
+ssh -p 22 root@wertserv.lan
+ssh -p 22 wertercatt@wertserv.lan
+ssh -p 22 wertercatt@wertserv.lan
+history | grep "rsync"
+rclone
+ls
+cd /mnt
+cd hMailServer
+ls
+cd Backups
+ls
+tldr rsync
+rsync -azvhp ./*.7z wertserv.lan:/home/wertercatt
+cd ~
+wget2 https://www.dropbox.com/s/4fc0s8nxyz0ou5x/washington%20monument.lxf?dl=1
+ls
+mv "washington monument.lxf?dl=1" "blm-plaza-by-CX52J.lxf"
+ls
+yay -Syu
+yay -Sy archlinux-keyring
+yay -Syu
+yay -Syu openh264-git
+yay -Syu
+tldr find
+tldr chmod
+ssh -p 22 wertserv.lan
+ssh -p 22 root@wertserv.lan
+ssh -p 22 wertserv.lan\
+ssh -p 22 wertserv.lan
+ssh -p 22 root@wertserv.lan
+ssh -p 22 wertercatt@wertserv.lan
+ssh -p 22 root@wertserv.lan
+ssh -p 22 wertercatt@wertserv.lan
+ssh -p 22 root@wertserv.lan
+ssh -p 22 wertercatt@wertserv.lan
+tldr rsync
+rysnc -azvhP wertercatt.com:/home/wertercatt/hMailServerBackup.xml /home/wertercatt
+yay -Syu rysnc
+yay -Syu rsync
+neofetch
+rsync -azvhP wertercatt.com:/home/wertercatt/hMailServerBackup.xml /home/wertercatt
+ls
+vim hMailServerBackup.xml
+grep "<account> hMailServerBackup.xml
+grep "<account>" hMailServerBackup.xml
+vim hMailServerBackup.xml
+grep "Account name =" hMailServerBackup.xml
+grep "Account name" hMailServerBackup.xml
+vim hMailServerBackup.xml
+grep "Account Name" hMailServerBackup.xml
+vim hMailServerBackup.xml
+grep "<Account Name" hMailServerBackup.xml
+ls
+nmap -sV wertserv.lan
+yay -Syu thunderbird-git
+yay -Syu thunderbird
+gpg2
+gpg2 --list-keys
+gpg2 --list-secret-keys
+gpg2 --export-secret-keys --armor ./keys.asc
+gpg2 --export-secret-keys --armor
+ls
+vim keys.asc
+history | grep rsync
+rsync -azvhP wertercatt.com:/home/wertercatt/DataBackup.txt /home/wertercatt
+git clone https://github.com/armsp/gifc
+cd gifc
+ls
+cd ..
+rm -rf gifc
+ls
+cat DataBackup.txt
+yay -Syu xcopy
+yay -Syu xclip
+openh264
+tldr xclip
+ls
+xclip -set clip DataBackup.txt
+xclip -sel clip DataBackup.txt
+ls
+xclip -sel clip hMailServerBackup.xml
+xclip -sel clip test
+echo test | xclip -sel clip
+ls
+ls /mn2
+ls /mnt2
+ls
+ls /mnt2/Users/Blaze
+mpv https://youtu.be/ZOIIZiEUNmg?t=747
+ssh -p 22 wertserv.lan
