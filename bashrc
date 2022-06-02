@@ -10,6 +10,11 @@ PS1='[\u@\h \W]\$ '
 
 eval "$(thefuck --alias)"
 neofetch
-HISTSIZE=-1
-HISTFILESIZE=-1
-HISTCONTROL=ignoreboth
+export HISTSIZE=-1
+export HISTFILESIZE=-1
+export HISTCONTROL=ignoreboth
+export SSLKEYLOGFILE=/home/wertercatt/ssl.keys
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

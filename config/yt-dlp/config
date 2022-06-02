@@ -2,10 +2,10 @@
 --write-subs
 --write-description
 --write-info-json
---write-comments
+#--write-comments
 --write-thumbnail
 #output format
--o "./TikTok/%(uploader)s/%(timestamp)s.%(ext)s"
+-o "./YouTube/%(id)s.%(ext)s"
 #embed info
 --embed-subs
 --embed-thumbnail
